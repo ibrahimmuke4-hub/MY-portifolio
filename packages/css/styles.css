@@ -528,6 +528,18 @@ img {
   width: 60%;
 }
 
+.skills__javascript {
+  width: 70%;
+}
+
+.skills__fullstack {
+  width: 75%;
+}
+
+.skills__ai {
+  width: 65%;
+}
+
 .skills__wordpress {
   width: 70%;
 }
