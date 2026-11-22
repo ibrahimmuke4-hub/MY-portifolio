@@ -110,6 +110,22 @@ let swiperPortfolio = new Swiper(".portfolio__container", {
   keyboard: true, */
 });
 
+/*==================== CERTIFICATES SWIPER ====================*/
+let swiperCertificates = new Swiper(".certificates__container", {
+  cssMode: true,
+  loop: true,
+
+  navigation: {
+    nextEl: ".certificates__next",
+    prevEl: ".certificates__prev",
+  },
+
+  pagination: {
+    el: ".certificates__pagination",
+    clickable: true,
+  },
+});
+
 /*==================== TESTIMONIAL ====================*/
 let swiperTestimonial = new Swiper(".testimonial__container", {
   loop: true,

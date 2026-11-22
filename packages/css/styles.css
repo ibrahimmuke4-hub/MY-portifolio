@@ -763,7 +763,8 @@ img {
 }
 
 /*==================== PORTFOLIO ====================*/
-.portfolio__container {
+.portfolio__container,
+.certificates__container {
   overflow: initial;
 }
 
